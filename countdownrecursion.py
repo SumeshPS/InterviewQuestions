@@ -1,9 +1,9 @@
 def countdown(number):
     if number==0:
-        print ('Completed') 
+        print ('Completed') //base case
     else:
         print (number)
-        countdown(number-1)
+        countdown(number-1) //recursive case
 def sum_number(num):
     if num ==0:
         return 0

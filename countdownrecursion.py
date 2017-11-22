@@ -9,7 +9,16 @@ def sum_number(num):
         return 0
     else:
         return num + sum_number (num-1)
+    
+
+def fact(fct):
+    if ( fct == 0 ):
+        return 1
+    else:
+        return fct * fact ( fct-1 )
+
 
           
-countdown(6)
-print(sum_number(4))
+countdown(6);
+print(sum_number(4));
+print(fact(3));
